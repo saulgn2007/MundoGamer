@@ -6,9 +6,9 @@ El objetivo es desarrollar una página web para la venta e informacion de videoj
 
 ##🎯Requisitos
 
-    - Un apartado de juegos destacados
-    - Apartado de categorias de juegos
-    - Al clicar en un videojuego, debe aparecer informacion sobre el juego y precio
+- Un apartado de juegos destacados
+- Apartado de categorias de juegos
+- Al clicar en un videojuego, debe aparecer informacion sobre el juego y precio
     
 
 ##💻Tecnologias
