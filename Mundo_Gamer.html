@@ -5,7 +5,7 @@
     <title>Mundo Gamer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="body1">
 
     <div class="contenedor">
 
@@ -17,31 +17,31 @@
 
         <!-- JUEGOS DESTACADOS -->
         <section class="destacados">
-            <h2 id="JUEGOS">JUEGOS</h2> <h2 id="DESTACADOS">DESTACADOS</h2>
+            <h2 id="JUEGOS">JUEGOS DESTACADOS</h2> 
 
-            <div class="juegos">
+                <div class="juegos">
+                    <div class="card" >
+                     <a href="Cod.html"><img src="Imagenes/call7.jpg" alt="Call of Duty"></a>
+                </div>
+                
                 <div class="card">
-                    <img src="Imagenes/cod.jpg" alt="Call of Duty">
+                    <a href="FC26.html"><img src="Imagenes/fifa.jpg" alt="FIFA"></a>
                 </div>
 
                 <div class="card">
-                    <img src="Imagenes/fifa.jpg" alt="FIFA">
+                    <a href="Minecraft.html"><img src="Imagenes/minecraft.jpg" alt="Minecraft"></a>
                 </div>
 
                 <div class="card">
-                    <img src="Imagenes/minecraft.jpg" alt="Minecraft">
+                    <a href="Resident.html"><img src="Imagenes/resident.jpg" alt="Resident Evil"></a>
                 </div>
 
                 <div class="card">
-                    <img src="Imagenes/resident.jpg" alt="Resident Evil">
+                    <a href="God.html"><img src="Imagenes/god.jpg" alt="God of War"></a>
                 </div>
 
                 <div class="card">
-                    <img src="Imagenes/god.jpg" alt="God of War">
-                </div>
-
-                <div class="card">
-                    <img src="Imagenes/hytale.jpg" alt="Hytale">
+                    <a href="Hytale.html"><img src="Imagenes/hytale.jpg" alt="Hytale"></a>
                 </div>
             </div>
         </section>
@@ -50,11 +50,35 @@
         <section class="explorar">
             <h2 id="EXPLORAR">EXPLORAR</h2>
 
-            <div class="botones">
-                <button>PLATAFORMAS</button>
-                <button>GÉNEROS</button>
-                <button>OFERTAS</button>
+        <div class="botones">
+                <button class="dropbtn" onclick="toggleMenu()">PLATAFORMAS</button>
+                    <div id="misbotones" class="botones-content">
+                        <a href="#">PC</a>
+                        <a href="#">PlayStation</a>
+                        <a href="#">Xbox</a>
+                        <a href="#">Nintendo</a>
+                    </div>
             </div>
+
+            <div class="botones">
+                <button class="dropbtn" onclick="toggleMenu()">GÉNEROS</button>
+                    <div id="misbotones" class="botones-content">
+                        <a href="#">TERROR</a>
+                        <a href="#">ACCIÓN</a>
+                        <a href="#">LUCHA</a>
+                        <a href="#">ARCADE</a>
+                    </div>
+            </div>
+                
+            <div class="botones">
+                <button class="dropbtn" onclick="toggleMenu()">OFERTAS</button>
+                    <div id="misbotones" class="botones-content">
+                        <a href="https://www.eneba.com/es/store/all?text=atlas&enb_campaign=Main%20Search&enb_content=search%20dropdown%20-%20input&enb_medium=input&enb_source=https%3A%2F%2Fwww.eneba.com%2Fstore%2Fall&enb_term=Submit">ENEBA</a>
+                        <a href="https://store.steampowered.com/specials?l=spanish">STEAM</a>
+                        <a href="https://www.chollometro.com/categorias/videojuegos">CHOLLOMETRO</a>
+                    </div>
+            </div>
+            
         </section>
 
         <!-- INFORMACIÓN -->
