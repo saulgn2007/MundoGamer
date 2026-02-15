@@ -19,4 +19,4 @@ La tecnologia usada es la siguiente:
 - Para el desarrollo de la página web hemos usado tecnologias como HTML:5 y CSS
 
 ## 🖥️¿Como ejecutarlo?
-Para ejecutar la página web, debemos descargar el repositorio y tener un navegador para ejecutar el archivo .html.
+Para ejecutarlo, debemos tener el id Visual Studio Code, con la extension Live Server. Esto hara que podamos editar el codigo y ver el estado de la página web.
