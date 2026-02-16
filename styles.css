@@ -8,7 +8,11 @@
 /* FONDO GENERAL */
 .body1 {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #7b2cbf, #3c096c);
+    background: linear-gradient(to bottom, #ad71e2, #140225);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
     color: white;
     text-align: center;
 }
@@ -16,7 +20,7 @@
 /* CONTENEDOR */
 .contenedor {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1600px;
     margin: auto;
     padding: 40px 0;
 }
@@ -30,7 +34,7 @@
     background: linear-gradient(to right, #3a0ca3, #4361ee);
     padding: 20px;
     border-radius: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
@@ -178,16 +182,6 @@ color: #00f5ff;
     text-align: center;
 }
 
-/* #imagencod {
-    margin-top: -180px;
-    margin-left: 360px;
-    width: 185px;
-    height: 280px;
-    border-radius: 15px;
-    overflow: hidden;
-    border: 2px solid #00f5ff;
-} */
-
 #titulosjuegos {
     color: #f97cfd;
 }
@@ -206,29 +200,11 @@ color: #00f5ff;
     color: #d34cf5;
 }
 
-/* #imagenea26 {
-    margin-top: -180px;
-    margin-left: 337px;
-    width: 230px;
-    height: 230px;
-    border-radius: 15px;
-    overflow: hidden;
-    border: 2px solid #00f5ff;
-} */
 
 .textoinfojuego {
     text-align: justify;
 }
 
-/* #imagenmc {
-    margin-top: -180px;
-    margin-left: 337px;
-    width: 230px;
-    height: 230px;
-    border-radius: 15px;
-    overflow: hidden;
-    border: 2px solid #00f5ff;
-} */
 
 .textoinfojuego {
     text-align: justify;
