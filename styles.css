@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background: linear-gradient(to right, #3a0ca3, #4361ee);
+    background: linear-gradient(to right, #140225, #6a7ad3);
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 70px;
@@ -56,7 +56,7 @@
         6px 6px 0 #0c7889;
 }
 
-#JUEGOS {
+#LETRATITULO {
     color: #00f5ff;
     text-shadow: 
         2px 0 #d424ef;
@@ -64,7 +64,7 @@
 
 
 .logo {
-    width: 70px;
+    width: 90px;
     border-radius: 15px;
 }
 
@@ -134,18 +134,6 @@ h2 span {
     transition: 0.3s;
 }
 
-#EXPLORAR {
-color: #00f5ff;
-    text-shadow: 
-        2px 0 #d424ef;
-}
-
-#INFORMACION {
-    color: #00f5ff;
-    text-shadow: 
-        2px 0 #d424ef;
-}
-
 .botones button:hover {
     background: #00f5ff;
     color: black;
@@ -177,7 +165,11 @@ color: #00f5ff;
     margin-bottom: 100px;
     margin-top: 50px;
     font-family: Arial, sans-serif;
-    background-color: #3c096c;
+    background: linear-gradient(to bottom, #ad71e2, #140225);
+        background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
     color: white;
     text-align: center;
 }
@@ -256,6 +248,7 @@ color: #00f5ff;
 }
 /*hasta aquí, son los desplegables.*/
 
+/* Tarjetas con borde */
 .imagengod {
     border-style: solid;
     border-width: 4px;
