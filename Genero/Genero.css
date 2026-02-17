@@ -95,3 +95,34 @@ body {
         4px 4px 0 #00f5ff,
         6px 6px 0 #0c7889;
 }
+
+
+@media (max-width: 420px) {
+
+    .banner {
+        flex-direction: column;
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    #MUNDO, #GAMER {
+        font-size: 36px !important;
+    }
+
+    .galeria {
+        gap: 12px;
+    }
+
+    .card {
+        width: 120px;
+        height: 160px;
+    }
+
+    .titulo-seccion {
+        font-size: 1.9rem;
+    }
+}
