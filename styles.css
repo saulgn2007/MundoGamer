@@ -296,7 +296,7 @@ h2 span {
 
     /* Página de juegos (body2) */
     #body2 {
-        margin: 15px !important;
+        margin: 15px;
     }
 
     .imagengod img {
