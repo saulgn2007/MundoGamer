@@ -319,3 +319,71 @@ h2 span {
         width: 100%;
     }
 }
+
+@media (min-width: 2000px){
+    
+    @media (min-width: 2000px) {
+
+    /* Banner */
+    .banner {
+        flex-direction: row;
+        text-align: center;
+        padding: 40px;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    #MUNDO, #GAMER {
+        font-size: 90px;
+    }
+
+    /* Cards */
+    .juegos {
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 260px;
+        height: 360px;
+    }
+
+    /* Página de juegos (body2) */
+    #body2 {
+        margin: 80px 200px;
+    }
+
+    .imagengod img {
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .textoinfojuego {
+        padding: 0 80px;
+        text-align: left;
+        font-size: 28px;
+        line-height: 1.6;
+    }
+
+    /* Botones */
+    .botones {
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .dropbtn {
+        width: auto;
+        padding: 15px 40px;
+        font-size: 22px;
+    }
+}
+}
