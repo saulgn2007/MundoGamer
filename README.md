@@ -24,5 +24,7 @@ Para ejecutarlo, debemos tener el id Visual Studio Code, con la extension Live S
 
 ## Casos de uso
 <img width="778" height="492" alt="image" src="https://github.com/user-attachments/assets/b487795e-530b-46a4-9177-9b47eb60107c" />
+
+
 ## Figma
 [https://www.figma.com/design/zsO4EiCHiTLxug5AtnT72Z/Mundo_Gamer?node-id=0-1&p=f&t=uTZVpMZjYsGWGB0b-0](url)
